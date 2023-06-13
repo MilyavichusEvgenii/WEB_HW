@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("images/фон.jpeg");
+}
+
+.title {
+    font-size: 40px;
+    color: rgb(231, 14, 21);
+    text-align: center;
+}
+
+
+.header {
+    background: url("images/лиана.jpg");
+    height: 150px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-link {
+    padding: 10px 20px;
+    background-color:hwb(109 2% 1%);
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 5p solid transparent;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-link:hover {
+    background-color: #fff;
+    color: darkmagenta;
+    border: 5p solid darkmagenta;
+}
+
+.txt-box {
+    padding: 12px;
+    width: 100%;
+    border: 2px solid #585353;
+}
+.item {
+    width: 263px;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 50px; 
+}
+
+.txt-link {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.item-pic {
+    border-radius: 10px;
+}
+
+.txt-animal {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #180ae3;
+    background-color: rgb(43, 226, 86);
+    border-radius: 5px;
+}
